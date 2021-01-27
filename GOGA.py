@@ -71,14 +71,14 @@ def execute_cmd(cmd):
 
     elif cmd == 'radio':
         # воспроизвести радио
-        playsound("D:\IT tricks and magic of the programming\Python\JarvisProject\Grand Theft Auto GTA Vice City Fever 105.mp3")
+        playsound()
 
     elif cmd == 'stupid1':
         # рассказать анекдот
-        speak("Мой разработчик не научил меня анекдотам ... Ха ха ха")
+        speak("Мой разработчик не научил меня анекдотам ... ")
 
     elif cmd == 'open':
-        open("C:\Program Files (x86)\ColorMania\ColorMania.exe")
+        open()
 
     else:
         print('Команда не распознана, повторите!')
